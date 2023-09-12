@@ -1,8 +1,4 @@
 .container__big-card{
-
-  margin-left: 20px;
-  margin-right: 20px;
-
   width: 400px;
   height: 500px;
 
@@ -13,16 +9,23 @@
 }
 
 .big-card__title > h1  {
-  margin-top: 15px;
-  font-size: 20px;
+  margin-top: 8px;
+
+}
+
+.big-card__title > h1 > a {
+  color: var(--color-subtitle);
+  font-size: 30px;
 }
 
 .big-card__description{
-  margin-top: 20px;
+  margin-top: 8px;
 }
 
 .big-card__description > p > a {
-  color: grey;
+  color: var(--color-text);
+  font-size: 18px;
+  width: 100%;
 }
 
 .big-card__photo > img{

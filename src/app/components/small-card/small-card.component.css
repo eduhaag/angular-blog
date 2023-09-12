@@ -1,23 +1,23 @@
 .container__small-card{
-  width: 700px;
-  margin-bottom: 15px;
+  width: 400px;
+  margin-top: .5rem;
+  padding-bottom: .5rem;
+  border-bottom: 1px solid var(--color-border);
 }
 
 .container__small-card-content{
   display: flex;
   flex-direction: row;
+  gap: 20px
 }
 
 .small-card__photo > img {
-  width: 200px;
-  min-width: 200px;
-  margin-right: 20px;
+  width: 175px;
 }
 
-.small-card__title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.small-card__title > h1 > a {
+  font-size: 18px;
+  color: var(--color-subtitle);
 }
 
 .container__small-card__separator{

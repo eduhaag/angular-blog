@@ -1,13 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --color-text: #AFC2D4;
+  --color-background: #071422;
+  --color-blue: #3294F8;
+  --color-title: #E7EDF4;
+  --color-subtitle: #C4D4E3;
+  --color-title-background: #112131;
+  --color-border: #C4D4E3;
+  --color-white: #fff;
+}
 *{
   margin:0;
   padding:0;
   box-sizing: border-box;
-  background-color: #111111;
-  color:white;
-  font-family: 'Segoe UI';
+
 }
 
-a{
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+body, input, text-area, button{
+  font: 400 1rem Nunito, sans-serif;
+}
+
+a {
   text-decoration: none;
+  color: var(--color-text);
 }
